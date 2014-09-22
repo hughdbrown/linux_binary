@@ -6,5 +6,5 @@ Python code to create shell script to download and install a particular set of 6
 Requirements
 ============
 
-1. docopty library
+1. docopt library
 
