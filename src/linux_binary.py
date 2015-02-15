@@ -66,8 +66,9 @@ VERSIONS = OrderedDict([
     ('3.18.3', dict_variables("201501161810", ("03", "18", "03"), "vivid")),
     ('3.18.4', dict_variables("201501271243", ("03", "18", "04"), "vivid")),
     ('3.18.5', dict_variables("201501292218", ("03", "18", "05"), "vivid")),
+    ('3.18.6', dict_variables("201502061036", ("03", "18", "06"), "vivid")),
+    ('3.18.7', dict_variables("201502110759", ("03", "18", "07"), "vivid")),
 ])
-
 
 def print_exec_header():
     print("#!/bin/sh -e\n")
