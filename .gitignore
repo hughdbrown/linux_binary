@@ -1,3 +1,4 @@
 build/
 dist/
 linux_binary.egg-info/
+*.pyc
