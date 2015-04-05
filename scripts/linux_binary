@@ -2,7 +2,7 @@
 
 import sys
 
-from src.linux_binary import main
+from ..src.linux_binary import main
 
 if __name__ == '__main__':
     sys.exit(main())

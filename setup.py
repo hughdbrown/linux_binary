@@ -9,7 +9,7 @@ from glob import glob
 
 def get_version():
     """Reads the version from the package"""
-    return "0.1"
+    return "0.2"
 
 def get_requirements():
     """Reads the installation requirements from requirements.pip"""

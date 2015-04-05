@@ -16,7 +16,7 @@ from __future__ import print_function
 
 from docopt import docopt
 
-from .versions import VERSIONS
+from src.versions import VERSIONS
 
 
 def print_exec_header():
