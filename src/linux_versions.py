@@ -4,7 +4,7 @@ def dict_variables(rd, sv, name):
     return {
         "RELEASE_DATE": rd,
         "SHORT_STRING": "".join(sv),
-        "SHORT_VERSION": ".".join(str(int(x)) for x in sv if int(x)),
+        "SHORT_VERSION": ".".join(str(int(x)) for x in sv),
         "NAME": name,
     }
 
