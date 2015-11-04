@@ -24,7 +24,7 @@ def print_exec_header():
 
 def wget_file(filename):
     http_address = "http://kernel.ubuntu.com/~kernel-ppa/mainline/v${{SHORT_VERSION}}-${{NAME}}/{0}".format(filename)
-    print("wget '{0}' || {{ echo 'Getting {1} failed'; exit 1; }}".format(http_address, filename))
+    print('''wget "{0}" || {{ echo 'Getting {1} failed'; exit 1; }}'''.format(http_address, filename))
 
 def install_script(version):
     x = VERSIONS[version]
